@@ -13,6 +13,16 @@ public class DashboardData {
 	private String id;
 	private String code;
 	private Object data;
+	
+	public DashboardData(){
+		
+	}
+	
+	public DashboardData(String id, String code, Object data){
+		this.id=id;
+		this.code=code;
+		this.data=data;
+	}
 	public String getCode() {
 		return code;
 	}
