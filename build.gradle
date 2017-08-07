@@ -17,12 +17,12 @@ apply plugin: 'eclipse-wtp'
 apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 apply plugin: 'io.spring.dependency-management' 
-apply plugin: 'jar'
+apply plugin: 'war'
 
-jar {
+war {
     baseName = 'dashboardservice'
     version = '0.0.1-SNAPSHOT'
-    archiveName = 'dashboardservice.jar'
+    archiveName = 'dashboardservice.war'
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
